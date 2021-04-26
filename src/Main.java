@@ -1,6 +1,9 @@
+import Player.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("test du code");
+        Player lilice = new Player("Alice");
+        Game hangman = new Game();
     }
 
 }
